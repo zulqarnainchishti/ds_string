@@ -1,3 +1,6 @@
+#ifndef STRING_H
+#define STRING_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -473,3 +476,5 @@ String convert(int num, int base){
     }
     return new;
 }
+
+#endif // STRING_H
